@@ -1,3 +1,9 @@
+
+
+  
+
+
+
 <div class="animated fadeIn">
   <div class="row">
     <div class="card">
@@ -6,12 +12,17 @@
       
     </div> 
     
-      </div><!--/.row-->
+  </div><!--/.row-->
+  
+
+
   
   <div class="row">
     <div class="col-md-12">
       <div class="card">
-        
+        <div class="animated fadeIn " >
+          
+          
         <div class="card-body">
           <div class="row">
             <div class="col-sm-6">
@@ -25,7 +36,9 @@
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-info" type="submit">Search</button>
               </form>
+              
             </div><!--/.col-->
+            
           </div><!--/.row-->
           <br>
           <table class="table table-responsive-sm table-hover table-outline mb-0">
@@ -241,29 +254,3 @@
     </div><!--/.col-->
   </div><!--/.row-->
 </div>
-<div class="col-sm-6 col-lg-3" width="">
-  <div class="card text-white bg-primary">
-    <div class="card-body pb-0">
-      <div class="btn-group float-right" dropdown>
-        <button type="button" class="btn btn-transparent dropdown-toggle p-0" dropdownToggle>
-        </button>
-        <div class="dropdown-menu dropdown-menu-right" *dropdownMenu>
-          <a class="dropdown-item" href="#">More details</a>
-
-         
-        </div>
-      </div>
-      <div class="text-value">9.823</div>
-      <div>Users per month</div>
-    </div>
-    <div class="chart-wrapper mt-3 mx-3" style="height:70px;">
-      <canvas baseChart class="chart"
-      [datasets]="lineChart1Data"
-      [labels]="lineChart1Labels"
-      [options]="lineChart1Options"
-      [colors]="lineChart1Colours"
-      [legend]="lineChart1Legend"
-      [chartType]="lineChart1Type"></canvas>
-    </div>
-  </div>
-</div><!--/.col-->

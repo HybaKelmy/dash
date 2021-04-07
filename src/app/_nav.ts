@@ -7,6 +7,11 @@ export const navItems: INavData[] = [
     icon: 'icon-speedometer',
     
   },
+  {
+    name: 'Statistiques',
+    url: '/notifications/modals',
+    icon: 'cil-chart-line'
+  },
 
   {
     name: 'Add an office',
@@ -40,9 +45,6 @@ export const navItems: INavData[] = [
     url: '/icons/flags',
     icon: 'icon-note'
   },
-  
- 
-
 
     
   

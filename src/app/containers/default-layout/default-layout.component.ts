@@ -13,3 +13,7 @@ export class DefaultLayoutComponent {
     this.sidebarMinimized = e;
   }
 }
+
+
+
+
