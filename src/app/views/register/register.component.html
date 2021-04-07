@@ -1,0 +1,119 @@
+
+<div class="app-body" [ngStyle]="{backgroundImage:'url(./assets/bc.jpg)'}" >
+  
+  <main class="main d-flex align-items-center">
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 mx-auto">
+          <div class="card mx-4">
+            <div class="card-body p-4">
+              <form>
+                <h1><i class="fa fa-user-plus"></i> Add a user </h1>
+                <p class="text-muted">Create a user's account</p>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="icon-user"></i></span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Username" autocomplete="username" required>
+                </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">cin</span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="ID" autocomplete="CIN" required>
+                </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">@</span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Email address" autocomplete="email" required>
+                </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="icon-phone"></i></span>
+                  </div>
+                  <input type="tel" class="form-control" placeholder="Phone number" autocomplete="tel" required>
+                </div>
+
+
+                
+
+
+
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="icon-lock"></i></span>
+                  </div>
+                  <input type="password" class="form-control" placeholder="Password" autocomplete="new-password" required>
+                </div>
+                <div class="input-group mb-4">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="icon-lock"></i></span>
+                  </div>
+                  <input type="password" class="form-control" placeholder="Repeat password" autocomplete="new-password" required>
+                </div>
+                <div class="form-group row">
+                  <label class="col-md-3 col-form-label " for="select1"><strong>  Office</strong></label>
+                  <div class="col-md-9">
+                    <select id="select1" name="select1" class="form-control ">
+                      <option value="0">Please select</option>
+                      <option value="1">Dr flen</option>
+                      <option value="2">aa</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  
+                  <label class="col-md-3 col-form-label" for="date-input"><strong>From</strong></label>
+                  <div class="col-md-9">
+                    <input class="form-control" id="date-input" type="date" name="date-input" placeholder="date">
+                    <span class="text-muted">Please enter a valid date</span>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-md-3 col-form-label" for="select1"><strong>Subscription period</strong> </label>
+                  <div class="col-md-9">
+                    <select id="select1" name="select1" class="form-control">
+                     
+                   
+                      <option value="0">1 year</option>
+                    
+                   
+          
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-md-3 col-form-label" ></label>
+                  <div class="col-md-9 col-form-label">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radios" id="radio1" value="Doctor" checked>
+                      <label class="form-check-label" for="radio1">
+                        Doctor
+                        
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radios" id="radio2" value="Secretary">
+                      <label class="form-check-label" for="radio2">
+                        Secretary
+                      </label>
+                    </div>
+                  </div>
+                </div>
+          
+                <button type="button" class="btn btn-block btn-success">Create Account</button>
+              </form>
+            </div>
+
+
+
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
