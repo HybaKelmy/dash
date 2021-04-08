@@ -11,13 +11,28 @@
     <li class="nav-item px-3">
       <a class="nav-link text-white" href="#">Home</a>
     </li>
-    
-    <li class="nav-item px-3">
-      <a class="nav-link text-white" href="#">Settings</a>
-    </li>
+    <li>
+    <button type="button" class="btn btn-primary mr-1" data-toggle="modal" (click)="primaryModal.show()">
+      Add a note
+    </button>
 
+    
+
+
+
+
+
+
+
+
+
+    
 </ul>
   <ul class="nav navbar-nav ml-auto">
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-info text-white" type="submit">Search</button>
+    </form>
    <li class="nav-item dropdown" dropdown placement="bottom right">
       <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" dropdownToggle (click)="false">
         <img src="assets/hiba.jpg" class="img-avatar" alt="admin@bootstrapmaster.com"/>
